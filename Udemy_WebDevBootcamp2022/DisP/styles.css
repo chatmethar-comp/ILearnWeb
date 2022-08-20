@@ -1,0 +1,55 @@
+h1 {
+    background-color: palegoldenrod;
+    border: black solid 1px;
+    width: 300px;
+    padding: 30px;
+
+}
+
+span {
+    background-color: paleturquoise;
+    border: 1px solid black;
+    display: block;
+}
+
+p span {
+    background-color: palevioletred;
+    border: 1px solid black;
+    display: block;
+    padding: 100px;
+    margin: 50px;
+    width: 500px;
+}
+
+.a {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    border: 5px solid black;
+    display: inline-block;
+}
+
+section {
+    background-color: #6d6875;
+    height: 800px;
+    width: 800px;
+}
+
+section div {
+    background-color: #e5989b;
+    width: 50%;
+    height: 50%;
+    margin: 500px;
+}
+
+article {
+    font-size: 30px;
+}
+
+article h2 {
+    font-size: 2em;
+}
+
+article p {
+    font-size: 1em;
+}

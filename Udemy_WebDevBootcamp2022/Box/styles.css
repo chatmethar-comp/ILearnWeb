@@ -1,0 +1,16 @@
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.square:nth-of-type(2n) {
+    background-color: black;
+}

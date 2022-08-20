@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form demo</title>
+</head>
+
+<body>
+    <h1>Forms Demo</h1>
+    <form action="/tacos">
+        <div>
+            <label for="username">Enter a username:</label>
+            <input type="text" id="username" placeholder="Username" name="username">
+        </div>
+        <div>
+            <label for="password">Enter a password</label>
+            <input type="password" id="password" placeholder="password" name="password">
+        </div>
+        <div>
+            <button type="button">middle button</button>
+        </div>
+        <input type="color" id="color" name="color">
+        <input type="number" placeholder="age" name="age" min="1" max="100">
+        <input type="month" name="month">
+        <input type="time" name="time">
+        <div>
+            <button type="submit">submit</button>
+        </div>
+    </form>
+    <hr>
+    <h2>Hijacking search</h2>
+    <h3>search google</h3>
+    <form action="https://google.com/search">
+        <input type="text" name="q" id="q">
+        <button>Search google</button>
+    </form>
+    <h3>search youtube</h3>
+    <form action="https://youtube.com/search">
+        <input type="text" name="search_query" id="search">
+        <button>Search youtube</button>
+    </form>
+    <hr>
+    <h2>More inputs</h2>
+    <form action="">
+        <div>
+            <input type="checkbox" name="agree_tos" id="agree" checked>
+            <label for="agree">I agree to everything</label>
+        </div>
+        <div>
+            <input type="checkbox" name="age15_tos" id="age">
+            <label for="age">I am over 15 years old</label>
+        </div>
+        <p>
+            <label for="s">S</label>
+            <input type="radio" name="size" id="s" value="s">
+            <label for="m">M</label>
+            <input type="radio" name="size" id="m" value="m">
+            <label for="l">L</label>
+            <input type="radio" name="size" id="l" value="l">
+            <label for="xl">XL</label>
+            <input type="radio" name="size" id="xl" value="xl" disabled>
+        </p>
+        <div>
+            <label for="a">Please Select an Enter</label>
+            <select name="meal" id="meal">
+                <option value="fish">Fish</option>
+                <option value="veg" selected>Vegetarian</option>
+                <option value="steak">Steak</option>
+            </select>
+            <p>Amount of Cheese:
+                <input type="range" name="chs_lvl" id="" min="1" max="100" step="20">
+            </p>
+        </div>
+        <form action="">
+
+            <p>
+                <label for="requests">Comment</label>
+                <textarea name="comment" id="c1" cols="30" rows="10" name="request?"
+                    placeholder="Type something"></textarea>
+            </p>
+            <button>submit</button>
+        </form>
+        <h2>Validation demo</h2>
+        <form action="/dummy">
+
+            <label for="first">Enter first Name:</label>
+            <input type="text" name="first" id="first" required>
+            <br>
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username">
+
+            <p>
+                <input type="email" name="email" id="email">
+            </p>
+            <button>Submit</button>
+        </form>
+    </form>
+</body>
+
+</html>

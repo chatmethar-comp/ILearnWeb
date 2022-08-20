@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+    /* width: 100%; */
+    /* left center right */
+    font-weight: normal;
+    text-decoration: overline #000000 dotted;
+    letter-spacing: 1rem;
+    font-size: 2.5rem;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 1.2;
+}

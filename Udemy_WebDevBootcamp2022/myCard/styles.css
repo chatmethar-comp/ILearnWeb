@@ -1,0 +1,54 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1A1A40;
+}
+
+
+h1 {
+    font-size: 3em;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 0.1em 0.1em 0em #FA58B6a0, -0.2em -0.2em 0em #270082;
+    /* display: block; */
+}
+
+.card {
+    color: #ffffff;
+    padding: 8em 1em;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid;
+    border-radius: 1em;
+    background-color: #7A0BC0;
+    transition: .8s;
+    width: 50%;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.card:hover {
+    background-color: #FA58B6;
+    box-shadow: 0 0 1em 0.05em #FA58B6;
+    transform: rotateY(1.5turn) scale(2);
+
+}
+
+marquee {
+    color: white;
+    z-index: -2;
+    letter-spacing: 0.5em;
+}
+
+.back {
+    display: none;
+    /* visibility: hidden; */
+}
+
+/* .back:hover {
+    visibility: visible;
+} */
