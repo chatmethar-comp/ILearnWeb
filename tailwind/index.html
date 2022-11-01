@@ -9,6 +9,48 @@
   </head>
   <body>
     <!-- navbar -->
-    <nav class="relative container mx-auto bg-red-500">Hello</nav>
+    <nav class="relative container mx-auto p-6">
+      <!-- flex container -->
+      <div class="flex items-center justify-between">
+        <!-- logo -->
+        <div class="pt-2">
+          <img src="img/logo.svg" alt="" />
+        </div>
+        <!-- menu item -->
+        <div class="hidden md:flex space-x-5">
+          <a href="#" class="hover:text-darkGreyishBlue">Pricing</a>
+          <a href="#" class="hover:text-darkGreyishBlue">Product</a>
+          <a href="#" class="hover:text-darkGreyishBlue">About Us</a>
+          <a href="#" class="hover:text-darkGreyishBlue">Careers</a>
+          <a href="#" class="hover:text-darkGreyishBlue">Community</a>
+        </div>
+        <a
+          href=""
+          class="hidden md:block p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight"
+          >get started</a
+        >
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+      <div
+        class="container flex flex-col-reverse md:flex-row .items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0"
+      >
+        <!-- left item -->
+        <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
+          <h1
+            class="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left"
+          >
+            Bring Everyone together to build better product
+          </h1>
+          <p class="max-w-sm text-center text-darkGreyishBlue md:text-left">
+            Manage make it simple for software teams to plan day-to-day tasks
+            while keeping the larger teams goals in view.
+          </p>
+        </div>
+        <!-- image -->
+      </div>
+    </section>
   </body>
 </html>
