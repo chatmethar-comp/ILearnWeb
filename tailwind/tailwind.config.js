@@ -5,8 +5,8 @@ module.exports = {
     screens: {
       sm: "480px",
       md: "720px",
-      lg: "970px",
-      xl: "1440px",
+      lg: "960px",
+      xl: "1280px",
     },
     extend: {
       colors: {
@@ -17,7 +17,7 @@ module.exports = {
         darkGreyishBlue: "hsl(228, 10%, 50%)",
         veryDarkBlue: "hsl(233, 12%, 13%)",
         veryPaleRed: "hsl(13, 100%, 96%)",
-        veryLightGrey: "hsl(0, 0%, 98%)",
+        veryLightGray: "hsl(0, 0%, 98%)",
       },
     },
   },
