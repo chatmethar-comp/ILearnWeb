@@ -1,6 +1,6 @@
 <template>
-  <div class="font-bold text-3xl my-2">{{ title }}</div>
-  <div class="space-y-3 mx-3 max-w-md">
+  <div class="font-semibold text-3xl text-center my-2">{{ title }}</div>
+  <div class="space-y-3 mx-auto max-w-lg">
     <PersonVue
       v-for="employee in employees"
       v-bind:key="employee.id"
