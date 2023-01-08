@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "title": "Make Marketing Email",
+      "detail": "lorem ipsum",
+      "complete": true,
+      "id": 2
+    },
+    {
+      "title": "spotifieeeeeeee",
+      "detail": "cccddd",
+      "id": 3,
+      "complete": false
+    },
+    {
+      "title": "hanad",
+      "detail": "in",
+      "complete": false,
+      "id": 4
+    }
+  ]
+}
