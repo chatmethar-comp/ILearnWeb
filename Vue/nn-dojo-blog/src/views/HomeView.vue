@@ -5,6 +5,16 @@
     <button @click="age++" class="bg-gray-200 px-2 py-1">Add 1</button>
     <input v-model="name" type="text" src="" alt="" class="border" />
   </div>
+  <hr />
+  <div class="container mx-auto flex flex-col items-center space-y-3">
+    <p>Home</p>
+    <p>Refs</p>
+    <p>{{ ninjaOne.name }} - {{ ninjaOne.age }}</p>
+    <button class="bg-gray-200 px-2 py-1" @click="updatenn()">update1</button>
+    <h2 class="text-lg">reactive</h2>
+    <p>{{ ninjaTwo.name }} - {{ ninjaTwo.age }}</p>
+    <button class="bg-gray-200 px-2 py-1" @click="updatennn()">update2</button>
+  </div>
 </template>
 
 <script setup>
@@ -25,5 +35,14 @@ const handleClick = () => {
 
   name.value = "luigi";
   age.value = 35;
+};
+
+const ninjaOne = ref({ name: "mario", age: 30 });
+const ninjaTwo = reactive({ name: "luigi", age: 35 });
+const updatenn = () => {
+  ninjaOne.value.age = 40;
+};
+const updatennn = () => {
+  ninjaTwo.age = 45;
 };
 </script>
